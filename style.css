@@ -1,0 +1,110 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.navbar-brand {
+  margin-left: 100px;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+h2 {
+  text-align: left;
+}
+
+p {
+  padding: 15px 0px;
+  background: var(--secondary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.button-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  text-decoration: none;
+}
+
+.secondary-container {
+  padding: 20px;
+}
+
+.weather-app {
+  margin-top: 20px;
+}
+.emoji {
+  margin-top: 100px;
+  text-align: center;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+    padding: 10px;
+  }
+
+  .emoji {
+    font-size: 30px;
+  }
+
+  .button-link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  p {
+    text-align: center;
+    font-size: 20px;
+  }
+  .navbar-brand {
+    margin-left: 0px;
+  }
+}
